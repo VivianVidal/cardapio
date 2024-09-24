@@ -8,3 +8,9 @@ export interface Produto {
     descricao: string;
     imagem: StaticImageData; 
   }
+
+export interface ButtonProps{
+    titulo: string;
+    imagem: StaticImageData;
+    filter: () => void;
+}
