@@ -1,0 +1,28 @@
+.button{
+    padding: 4px 6px;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    border: none;
+    background-color: var(--variant-white);
+    font-size: 14px;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: var(--yellow);
+}
+
+.texto{
+    background-color: var(--variant-white);
+}
+
+.imagem{
+    background-color: transparent;
+}
